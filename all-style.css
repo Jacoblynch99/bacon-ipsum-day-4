@@ -1,0 +1,61 @@
+.grid-style{
+    display: grid;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+    grid-template-columns:1fr 3fr 1fr ;
+}
+
+.background {
+    background-color: #33A8DD ;
+    grid-column: 1/4;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 275%;
+    grid-column: 2/3;
+
+}
+
+.span-one {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 160%;
+}
+
+.text {
+    font-size: 80%;
+    margin-top: -2% ;
+    margin-bottom: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.line {
+    width: 30%;
+    height: 100%;
+}
+
+.color-line-one {
+    background-color:#33A8DD;
+}
+
+.color-line-two {
+    background-color: #F46731;
+}
+
+.color-line-three {
+    background-color: #2BCDC0 ;
+}
